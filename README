@@ -1,0 +1,64 @@
+Customizable Tic-Tac-Toe Game
+Overview
+This is a customizable Tic-Tac-Toe game that allows users to define the grid size (n x n) and the number of consecutive marks (m) required to win. The game is implemented with a clean and intuitive user interface and is responsive across different devices.
+
+Features
+Customizable grid size from 3x3 to 10x10.
+Customizable win streak length from 3 to the grid size.
+Interactive UI for a seamless gaming experience.
+Responsive design to work well on both desktop and mobile devices.
+Live Demo
+You can play the game online at: Live Demo Link
+
+Screenshots
+
+Installation
+Prerequisites
+A modern web browser (Chrome, Firefox, Safari, Edge)
+Internet connection to access the live demo or
+A local server setup for running the game locally
+Running Locally
+Clone the Repository
+
+sh
+Copy code
+git clone https://github.com/your-github-username/tic-tac-toe.git
+cd tic-tac-toe
+Open the Index File
+Simply open the index.html file in your web browser.
+
+sh
+Copy code
+open index.html
+or if you're using a local server setup (recommended for testing responsiveness):
+
+sh
+Copy code
+# Example using Python's HTTP server
+python3 -m http.server
+# Open your browser and navigate to http://localhost:8000
+Usage
+Set Grid Size and Win Streak
+
+Use the input fields to set the desired grid size (n x n) and the win streak (m).
+Click the "Start Game" button to initialize the game board.
+Play the Game
+
+Click on any cell to mark it with 'X' or 'O'.
+Players take turns until one player achieves the win streak or the game ends in a draw.
+The game will display the result and provide an option to restart.
+Code Structure
+index.html: The main HTML file containing the structure of the game.
+style.css: The CSS file for styling the game interface.
+script.js: The JavaScript file containing the game logic.
+Contributing
+Contributions are welcome! If you have any suggestions or improvements, feel free to create an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+For any questions or feedback, please contact:
+
+Your Name: Your Email
+GitHub: your-github-username
