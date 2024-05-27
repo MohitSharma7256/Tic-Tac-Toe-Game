@@ -22,7 +22,7 @@ Clone the Repository
 
 sh
 Copy code
-git clone https://github.com/your-github-username/tic-tac-toe.git
+git clone - https://mohitsharma7256.github.io/Tic-Tac-Toe-Game/
 cd tic-tac-toe
 Open the Index File
 Simply open the index.html file in your web browser.
