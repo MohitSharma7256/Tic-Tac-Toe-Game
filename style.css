@@ -1,0 +1,70 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa; /* Light background color */
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+h1 {
+    color: #333333; /* Darker text color for the title */
+}
+.settings {
+    margin-bottom: 20px;
+}
+.settings label {
+    margin: 0 10px;
+    color: #555555; /* Medium grey color for labels */
+}
+#game-board {
+    display: grid;
+    gap: 5px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.cell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0; /* Light grey color for cells */
+    border: 2px solid #cccccc; /* Border for cells */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover transition */
+}
+.cell:hover {
+    background-color: #b0c4de; /* Light blue color on hover */
+}
+.cell.x {
+    color: #ff6347; /* Tomato color for 'X' */
+}
+.cell.o {
+    color: #4682b4; /* Steel blue color for 'O' */
+}
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333333; /* Darker text color for the result */
+}
+button {
+    padding: 10px 20px;
+    background-color: #4caf50; /* Green background for button */
+    color: #ffffff; /* White text color for button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover transition */
+}
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
